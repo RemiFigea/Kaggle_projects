@@ -9,7 +9,7 @@ This repository is organized into several folders, each representing a separate 
 ## Repository Structure
 
 The repository is structured as follows:
-
+```
 /Kaggle-Projects
     /project-name-1
         - notebook-1.ipynb
@@ -39,6 +39,7 @@ The repository is structured as follows:
             - result-2.pdf
         - requirements.txt
         - README.md
+```
 
 - **`/project-name-1`**: Folder for the first project, containing notebooks, data, scripts, and results.
 - **`/notebooks`**: Jupyter notebooks for data exploration, analysis, and modeling.
@@ -63,8 +64,8 @@ To get started with any project in this repository:
 3. **Set Up the Environment:**
    ```bash
    python -m venv venv
-  source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-  pip install -r requirements.txt
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   pip install -r requirements.txt
   
 4. **Explore the Notebooks:**
    Open the Jupyter notebooks in your preferred environment
